@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kamens/jQuery-menu-aim.git"
+    "url": "git+https://github.com/virtualidentityag/jQuery-menu-aim.git"
   },
   "keywords": [
     "dropdown",
@@ -20,7 +20,7 @@
   "author": "Ben Kamens",
   "license": "MIT ",
   "bugs": {
-    "url": "https://github.com/kamens/jQuery-menu-aim/issues"
+    "url": "https://github.com/virtualidentityag/jQuery-menu-aim"
   },
   "homepage": "https://github.com/kamens/jQuery-menu-aim#readme"
 }
