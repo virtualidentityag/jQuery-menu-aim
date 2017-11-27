@@ -339,14 +339,18 @@
         /**
          * Hook up initial menu events
          */
+
+        // vi adaption
         $menu
-            .mouseleave(mouseleaveMenu)
+            .on('mouseleave', mouseleaveMenu)
             .find(options.rowSelector)
-            .mouseenter(mouseenterRow)
-            .mouseleave(mouseleaveRow)
-            .click(clickRow);
+            .on('mouseenter', mouseenterRow)
+            .on('mouseleave', mouseleaveRow)
+            .on('click', clickRow);
     
-        $(document).mousemove(mousemoveDocument);
+        $(document).on('mousemove', mousemoveDocument);
+
+        // vi adaption end
     
       };
     })(jQuery);
