@@ -1,9 +1,14 @@
 jQuery-menu-aim
 ===============
 
+This plugin has been modified by virtual-identity ag for a jquery update to the latest version and 
+adding it to projects via npm.
+It is forked by https://github.com/kamens/jQuery-menu-aim
+
 menu-aim is a jQuery plugin for dropdown menus that can differentiate
 between a user trying hover over a dropdown item vs trying to navigate into
 a submenu's contents.
+
 
 [Try a demo.](https://rawgithub.com/kamens/jQuery-menu-aim/master/example/example.html)
 
